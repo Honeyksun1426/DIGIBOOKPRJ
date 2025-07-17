@@ -596,4 +596,17 @@ h1, h2, h3 {
         flex-direction: column;
     }
 }
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#bookSearch {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #474040;
+    border-radius: 25px;
+}
+
 
