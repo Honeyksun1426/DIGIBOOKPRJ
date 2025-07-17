@@ -438,7 +438,7 @@ h1, h2, h3 {
 }
 
 .contact-form {
-    background: linear-gradient(145deg, #E8F1D4, #F5DEB3);
+    background: linear-gradient(145deg, wheat, #ffffff);
     padding: 2.5rem;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
@@ -608,5 +608,15 @@ h1, h2, h3 {
     border: 2px solid #474040;
     border-radius: 25px;
 }
+.book-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+/* 
+
 
 
