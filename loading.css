@@ -34,7 +34,7 @@ body {
   background: whitesmoke;
   border-radius: 5px;
   position: absolute;
-  animation: flip 3.5s infinite ease-in-out;
+  animation: flip 3.5s infinite e;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
@@ -70,35 +70,4 @@ body {
   0% { opacity: 0.3; }
   100% { opacity: 1; }
 }
-@media (max-width: 768px) {
-    .nav-menu {
-        gap: 1rem;
-    }
-    
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    
-    .hero-content p {
-        font-size: 1.1rem;
-    }
-    
-    .books-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    
-    .library-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .features {
-        grid-template-columns: 1fr;
-    }
-}
 
-@media (max-width: 480px) {
-    .nav-container {
-        flex-direction: column;
-        height: auto;
-        padding: 1rem 20px;
-    }
