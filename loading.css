@@ -34,7 +34,7 @@ body {
   background: whitesmoke;
   border-radius: 5px;
   position: absolute;
-  animation: flip 3.5s infinite e;
+  animation: flip 3.5s infinite ease-in-out;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
@@ -70,4 +70,3 @@ body {
   0% { opacity: 0.3; }
   100% { opacity: 1; }
 }
-
