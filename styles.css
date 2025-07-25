@@ -616,7 +616,16 @@ h1, h2, h3 {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-/* 
+.footer1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
 
 
 
