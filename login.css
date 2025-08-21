@@ -18,8 +18,8 @@ body {
   backdrop-filter: blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  padding: 40px;
-  width: 320px;
+  padding: 40px 32px;
+  width: 340px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
   color: #e8f1d4;
   text-align: center;
@@ -27,59 +27,141 @@ body {
 }
 
 .login-box h2 {
-  margin-bottom: 10px;
-  font-size: 24px;
+  margin-bottom: 14px;
+  font-size: 26px;
   color: #ffffff;
+  letter-spacing: 1px;
 }
 
 .login-box p {
-  font-size: 14px;
-  margin-bottom: 25px;
-  color:wheat;
+  font-size: 15px;
+  margin-bottom: 28px;
+  color: wheat;
+  letter-spacing: 0.5px;
 }
 
 label {
   display: block;
   text-align: left;
-  margin: 10px 0 5px;
+  margin: 16px 0 6px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
+  letter-spacing: 0.2px;
 }
 
 input {
   width: 100%;
-  padding: 10px 12px;
-  margin-bottom: 15px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
   border: none;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.13);
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   outline: none;
   transition: 0.3s;
+  box-sizing: border-box;
 }
 
 input:focus {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px #2c3e50;
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 6px #2c3e50;
 }
 
 button {
   width: 100%;
-  padding: 12px;
+  padding: 13px;
   background: #474040;
   color: white;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 17px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 18px;
   transition: 0.3s;
+  letter-spacing: 0.5px;
 }
 
 button:hover {
   background: #2c3e50;
   box-shadow: 0 0 10px #f5def3, 0 0 20px #474040;
+}
+
+.register-link {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #e8f1d4;
+}
+
+.register-link a {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.register-link a:hover {
+  color: #f5def3;
+}
+
+.forgot-password {
+  margin-bottom: 18px;
+}
+
+.forgot-password a {
+  color: #bdbdbd;
+  font-size: 13px;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.forgot-password a:hover {
+  color: #fff;
+}
+
+.social-login {
+  margin-top: 18px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  color: #e8f1d4;
+  font-size: 14px;
+}
+
+.social-btn {
+  width: 48%;
+  padding: 10px 0;
+  margin: 0 1%;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.google-btn {
+  background: #fff;
+  color: #474040;
+}
+
+.google-btn:hover {
+  background: #e8f1d4;
+  color: #2c3e50;
+}
+
+.facebook-btn {
+  background: #2c3e50;
+  color: #fff;
+}
+
+.facebook-btn:hover {
+  background: #474040;
+  color: #e8f1d4;
 }
 
 @keyframes fadeIn {
@@ -91,4 +173,7 @@ button:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(-180deg); }
 }
